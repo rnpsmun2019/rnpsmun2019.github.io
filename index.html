@@ -198,7 +198,7 @@
 
         <div class="col s12 center-align">
             <br>
-            <button class="btn-large pink modal-trigger" style="font-size:large" data-target="modal_sec_gen">LETTER FROM
+            <button class="btn-large pink modal-trigger" style="font-size:large" data-target="modal_sec_gen" style="word-wrap:break-word; display:inline-table">LETTER FROM
                 THE SECRETARY GENERAL</button>
         </div>
 
@@ -303,6 +303,11 @@
 
             console.log(screen.width);
             console.log(411 < 490);
+
+            if(screen.width<400){
+                document.getElementById('srijan').style.width = "75%";
+            }
+
             if (screen.width < 490) {
                 console.log('sd');
                 document.getElementById('player').style.width = "80%";
