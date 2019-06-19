@@ -6,12 +6,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" media="screen,projection" />
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141821410-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-141821410-1'); </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141821410-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-141821410-1'); </script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -90,10 +90,11 @@
             <br>
         </div>
         <div class="col s12 center-align row" style="margin: 0%">
-            <h5 class="center-align col s12" style="padding-left:10px; padding-right:10px"> 
-                    “MORE THAN EVER BEFORE IN HUMAN HISTORY, WE SHARE A COMMON DESTINY. WE CAN MASTER IT ONLY IF WE FACE IT TOGETHER. AND THAT, MY FRIENDS, IS WHY WE HAVE THE UNITED NATIONS.”
-<br>
-                        
+            <h5 class="center-align col s12" style="padding-left:10px; padding-right:10px">
+                “MORE THAN EVER BEFORE IN HUMAN HISTORY, WE SHARE A COMMON DESTINY. WE CAN MASTER IT ONLY IF WE FACE IT
+                TOGETHER. AND THAT, MY FRIENDS, IS WHY WE HAVE THE UNITED NATIONS.”
+                <br>
+
             </h5>
             <h5 class="center-align col s12">~KOFI ANNAN</h5>
             <br>
@@ -184,7 +185,7 @@
             <br>
             Anyone can do his job, but no one can be him.
             <br>
-            Passionate about food, football and debating, meet this year’s Secretary general:<br><br>
+            Passionate about food, football and debating, meet this year’s Secretary General:<br><br>
             <img src="/pics/srijan.jpeg" style="height: 20em" id="srijan">
             <h4><b>Srijan Chakraborty</b></h4>
             <br><br>
@@ -196,11 +197,18 @@
 
         </div>
 
-        <div class="col s12 center-align">
-            <br>
-            <button class="btn-large pink modal-trigger" style="font-size:large" data-target="modal_sec_gen" style="word-wrap:break-word; display:inline-table">LETTER FROM
-                THE SECRETARY GENERAL</button>
-        </div>
+        <div class="col s12 lighten-1 center-align">
+                <br>
+                <a class="waves-effect waves-light btn-large modal-trigger center-align pink" href="#modal1"
+                    data-target="modal1"
+                    style="font-size: 1.5em; word-wrap: break-word; display: inline-table">LETTER FROM THE SECRETARY GENERAL</a>
+
+                <!-- LINK THE ADDRESS HERE !!!!-->
+                <br>
+                <br>
+            </div>
+
+
 
         <!-- Starts here-->
         <!-- Modal Structure -->
@@ -304,7 +312,7 @@
             console.log(screen.width);
             console.log(411 < 490);
 
-            if(screen.width<400){
+            if (screen.width < 400) {
                 document.getElementById('srijan').style.width = "75%";
             }
 
