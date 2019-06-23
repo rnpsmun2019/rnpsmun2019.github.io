@@ -12,4 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var e = document.querySelectorAll('.modal');
     var instan = M.Modal.init(e, {});
 
+    
+
   });
